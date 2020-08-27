@@ -19,7 +19,7 @@ namespace GeneralStoreAPI.Models
 
         [Required]
         [ForeignKey("Product")]
-        public int ProductSKU { get; set; }
+        public string ProductSKU { get; set; }
         public virtual Product Product { get; set; }
 
         [Required]
